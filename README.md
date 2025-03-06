@@ -1,5 +1,5 @@
                                                           
-Apache Airflow Docker Project
+                                                  Apache Airflow-Docker Project
 
 Overview:
 
@@ -38,15 +38,12 @@ Installation & Setup:
         git clone <repository-url>
         cd <project-folder>
 
-   2.Initialize the Airflow environment:
-
-        mkdir -p ./dags ./logs ./plugins
         
-   3.Start Airflow using Docker Compose:
+   2.Start Airflow using Docker Compose:
 
         docker-compose up -d
 
-   4.Access the Airflow web UI at:
+   3.Access the Airflow web UI at:
 
         http://localhost:8086
     
@@ -55,7 +52,7 @@ Installation & Setup:
         Username: airflow
         Password: airflow
 
-   5.To stop the containers:
+   4.To stop the containers:
         docker-compose down
 
 DAGs Explanation:
