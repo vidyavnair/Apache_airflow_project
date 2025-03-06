@@ -12,9 +12,9 @@ This project sets up Apache Airflow using Docker and includes DAGs for login, ca
 
 Features:
 
-Containerized Apache Airflow setup using Docker.
+Containerized Apache Airflow setup using Docker
 
-DAGs for:
+DAGs for
 
 User Login
 
@@ -25,7 +25,7 @@ Product Data Management
 Implemented using OOP principles for better maintainability
 
 
-Prerequisites
+Prerequisites:
 
 Your system needs to have:
 
