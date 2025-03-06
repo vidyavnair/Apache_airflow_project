@@ -51,6 +51,7 @@ Your system needs to have:
         Password: airflow
 
    4.To stop the containers:
+   
         docker-compose down
 
 ## DAGs Explanation:
