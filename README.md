@@ -3,37 +3,33 @@
                                                   
 # Apache Airflow Docker Project
 
-Overview:
+## Overview:
 
-## This project sets up Apache Airflow using Docker and includes DAGs for login, category, and product task using Object-Oriented Programming concepts.
+ This project sets up Apache Airflow using Docker and includes DAGs for login, category, and product task using Object-Oriented Programming concepts.
 
-
-
-Features:
+## Features:
 
 Containerized Apache Airflow setup using Docker
 
 DAGs for
 
-User Login
+* User Login
 
-Category Data Management
+* Category Data Management
 
-Product Data Management
+* Product Data Management
 
 Implemented using OOP principles for better maintainability
 
-
-Prerequisites:
+## Prerequisites:
 
 Your system needs to have:
 
-Docker
+* Docker
 
-Docker Compose
+* Docker Compose
 
-
-Installation & Setup:
+## Installation & Setup:
 
    1.Clone the repository:
 
@@ -57,9 +53,9 @@ Installation & Setup:
    4.To stop the containers:
         docker-compose down
 
-DAGs Explanation:
+## DAGs Explanation:
 
-    1.Logined with username and passwords
-    2.Categories class inherits the Login class, login in to api, print token and print all the categories available in the api
-    3.Products class inherit the Category class, login into the api, collect all the categories, fetch all products for each category, saved all the  products into the database
+  * Logined with username and passwords
+  * Categories class inherits the Login class, login in to api, print token and print all the categories available in the api
+  * Products class inherit the Category class, login into the api, collect all the categories, fetch all products for each category, saved all the  products into the database
 
