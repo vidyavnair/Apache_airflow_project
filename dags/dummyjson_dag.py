@@ -5,7 +5,7 @@ import requests
 import sqlite3
 import json
 
-# API Base URL
+# Api  URL
 BASE_URL = "https://dummyjson.com"
 
 # Database Configuration
@@ -81,7 +81,7 @@ class Products(Categories):
             response = requests.get(url, headers=headers)
             
             if response.status_code == 200:
-                products = response.json().get("products", [])
+                products = response.json().get("products", []) 
                 
                 for product in products:
                     
@@ -97,7 +97,7 @@ class Products(Categories):
         conn.commit()
         conn.close()
 
-# Airflow DAG Definition
+# DAG Definition
 def login_task():
     Login().login()
 
@@ -141,6 +141,6 @@ products_operator = PythonOperator(
     dag=dag,
 )
 
-# Task Dependencies
+# Dependencies
 login_operator >> categories_operator >> products_operator
 
